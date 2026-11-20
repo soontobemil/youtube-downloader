@@ -1,0 +1,9 @@
+.DS_Store
+.swift-cache/
+.core-tests
+.make-icon
+__pycache__/
+deps/
+dist/
+*.app/
+*.part

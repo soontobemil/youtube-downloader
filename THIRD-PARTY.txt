@@ -1,0 +1,20 @@
+Youtube Downloader 0.4.0 — local Apple Silicon Mac build
+
+Download engine: yt-dlp 2026.10.26
+https://github.com/yt-dlp/yt-dlp/tree/2026.10.26
+The project is Unlicense; its unpacked standalone build includes third-party components.
+See Licenses/YT-DLP-THIRD-PARTY.txt for their notices and source locations.
+
+JavaScript runtime: Deno 2.9.8 (MIT)
+https://github.com/denoland/deno/tree/v2.9.8
+See Licenses/DENO-LICENSE.md.
+
+Video merger: FFmpeg 9.0, arm64, GPL-enabled static build
+Bundled via imageio-ffmpeg 0.8.1 (wrapper BSD-2-Clause).
+FFmpeg source: https://github.com/FFmpeg/FFmpeg/tree/n9.0
+Packaging and binary provenance: https://github.com/imageio/imageio-ffmpeg
+Build dependencies and configuration: run Tools/ffmpeg -version.
+See Licenses/FFMPEG-GPLv3.txt and Licenses/IMAGEIO-FFMPEG-LICENSE.txt.
+
+This package is prepared for personal local use. Any public redistribution
+needs the corresponding-source materials required by the bundled components.
